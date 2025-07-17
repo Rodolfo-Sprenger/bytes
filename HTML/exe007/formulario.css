@@ -1,0 +1,45 @@
+form {
+  padding: 60px;
+  text-align: center;
+  background: #9cd9f5;
+  color: rgb(19, 40, 95);
+  font-size: 30px;
+  border-radius: 40px;
+  width:60%;
+  height: 30%;
+  margin: 50px;
+}
+body {
+	height:100vh;
+	display: flex;
+	justify-content: center;
+	background: linear-gradient(to bottom right,blue, red);
+	
+}
+h1 {
+	font-size: 30px;
+	text-align: center;
+	color:#06035a
+}
+input[type=text], input[type=password] {
+  width: 97%;
+  height: 45px;
+  margin: 10px 0;
+  border: 2px solid #ccc;
+  border-radius: 40px;
+  padding-left: 10px;
+}
+button {
+  	background-color: #0a04aa;
+  	color: white;
+	width: 100%;
+  	height: 50px;
+	margin: 10px 0;
+  	border: none;
+  	cursor: pointer;
+	width: 100%;
+	border-radius: 40px
+}
+button:hover {
+  opacity: 0.8;
+}

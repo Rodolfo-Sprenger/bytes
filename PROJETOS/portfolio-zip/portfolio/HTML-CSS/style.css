@@ -1,0 +1,165 @@
+/* Reset das configurações básicas da página */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family:'Josefin Slab', serif;
+  background-color: #f7f5e7;
+  color: #336a96;
+  line-height: 2.0;
+}
+
+/* Navegação */
+header {
+  text-align: center;
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
+  
+}
+
+nav {
+  display: flex;
+  justify-content: left;
+  gap: 50px;
+  font-size: 14px;
+  flex-wrap: wrap;
+  margin: 20px;
+  position: fixed;
+}
+
+nav a {
+  text-decoration: none;
+  color: #336a96;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.3s;
+}
+
+nav a:hover {
+  border-color: #336a96;
+}
+
+/* Seção Hero */
+.hero {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.hero img {
+  width: 200px;
+  border-radius: 50%;
+  border: 2px solid #336a96;
+  box-shadow: 2px 2px 10px #336a96;
+}
+
+.hero h1 {
+  font-size: 38px;
+  margin: 10px 0 5px;
+  
+}
+
+.hero a {
+  color: #336a96;
+  text-decoration: underline;
+}
+
+/* Seções */
+section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  position: relative;
+  display: inline-block;
+  border-bottom: 2px solid #336a96;
+}
+
+/* Sobre mim */
+.sobre p {
+  max-width: 600px;
+  margin: 0 auto;
+  background: #5a59550e;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  box-shadow: 2px 2px 15px;
+}
+
+/* Balões Habilidades */
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.col {
+  width: 300px;
+  max-width: 90%;
+}
+
+/* Habilidades, Gostos, Formação */
+.habilidades .col,
+.gostos .col,
+.formacao .col {
+  background: #e0f7fa;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+/*Contato*/
+.contato form {
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+/*ícones sociais com link*/
+#social {
+    display:flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 30px;
+
+}
+
+input, textarea {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-family: inherit;
+    width: 100%;
+}
+
+button {
+    padding: 10px;
+    background: #336a96;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+button:hoover {
+    background: #336a96;
+   
+}
+
+/*rodapé*/
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 12px;
+    margin-top: 40px;
+}

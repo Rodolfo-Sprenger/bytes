@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Formulário</title>
+</head>
+<body>
+
+	<form action="URL" method="POST">
+		<fieldset>
+		<legend>Formulário Simples</legend>
+		<label for="name">Nome:</label>
+		<input type="text" id="name" name="name" placeholder="Introduza seu nome">
+		<br><br>
+		
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email" required> 
+		<br><br>
+		
+
+		<label for="idade">Idade:</label>
+		<input type="number"id="idade" min="0" name="idade">	
+		<br><br>
+		
+
+		<label for="password">Password:</label>
+		<input type="password" id="passaword" name="password" required>
+		<br><br>
+		
+
+		<label for="date">Data de Nascimento:</label>
+		<input type="date" id="date" name="date">
+		<br><br>
+		
+
+		<label for="color">Cor favorita</label>
+		<input type="color" id="color" name="color">
+
+		<br><br>
+		
+
+		<label for="file">Upload de CV</label>
+
+		<br><br>
+		
+
+		<p>Estação Favorita:</p>
+		<input type="radio" name="season" id="prim" value="primavera">
+		<label for="prim">Primavera</label>
+		<input type="radio" name="season" id="verao" value="verao">
+		<label for="Verão">Verão</label>
+		<input type="radio" name="season" id="out" value="out">
+		<label for="out">Outono</label>
+		<input type="radio" name="season" id="inv" value="inv">
+		<label for="inv">Inverno</label>
+
+		<br><br>
+		
+
+		<p>Gostos:</p>
+		<input type="checkbox" name="hobbies" id="mus" value="mus">
+		<label for="mus">Música</label>
+		<input type="checkbox" name="hobbies" id="cin" value="cin">
+		<label for="cin">Cinema</label>
+		<input type="checkbox" name="hobbies" id="des" value="des">
+		<label for="des">Desporto</label>
+		<input type="checkbox" name="hobbies" id="via" value="via">
+		<label for="via">Viagem</label>
+		
+		<br><br>
+		
+
+		<p>Linguagem de Progamação:</p>
+		<label for="ling"></label>
+		<select id="ling" name="ling">
+		<option>HTML</option>
+		<option>JavaScript</option>
+		<option>CSS</option>
+		<option>Phyton</option>
+		</select>
+		<br><br>
+		<input type="submit" value="Enviar">
+		<input type="reset" value="Limpar">
+		</fieldset>		
+	</form>
+	
+</body>
+</html>
